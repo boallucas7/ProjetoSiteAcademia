@@ -1,40 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tela de Login</title>
+    <title>Página de Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">História</a></li>
-            <li>
-                <a>Cadastros</a>
-                <ul class="submenu">
-                    <li><a href="#">Cliente PF</a></li>
-                    <li><a href="#">Cliente PJ</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
-    <div class="login-container">
-        <h2>Login Senac</h2>
-        <form>
-            <div class="input-group">
-                <label for="txtUsuario">Usuário</label>
-                <input type="text" id="txtUsuario" name="txtUsuario" placeholder="Digite seu usuário" required>
-            </div>
-            <div class="input-group">
-                <label for="txtSenha">Usuário</label>
-                <input type="password" id="txtSenha" name="txtSenha" placeholder="Digite sua senha" required>
-            </div>
 
-            <button type="submit">Entrar</button>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <div class="input-group">
+                <label for="username">Nome de usuário ou Email</label>
+                <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário ou email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+            </div>
+            <button type="submit" class="btn-login">Entrar</button>
         </form>
+
+        <p class="signup-prompt">Ainda não tem uma conta? <a href="/signup" class="signup-link">Criar conta</a></p>
     </div>
+
 </body>
 </html>
