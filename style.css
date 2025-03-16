@@ -1,109 +1,101 @@
-* {
+/* Cor de fundo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para o container de login */
+.login-container {
+    background-color: #2c003e; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    text-align: center;
+    color: white; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Título do formulário */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white; 
+}
+
+/* Estilo dos grupos de campos de entrada */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%; 
+}
+
+/* Estilo para os rótulos (labels) */
+.input-group label {
+    font-size: 14px;
+    color: white; 
+    display: block; 
+}
+
+/* Estilo dos campos de entrada (inputs) */
+.input-group input {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #7a4e9f; 
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #2c003e; 
+    color: white; 
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
+/* Estilo para o campo de entrada quando ele estiver em foco */
+.input-group input:focus {
+    border-color: #9b59b6; 
+    outline: none; 
 }
 
-nav {
-    background-color: #333;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block;
-    position: relative;
-    margin: 0 15px;
-}
-
-nav ul li a 
-{
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    padding: 10px 15px;
-    background: #444;
-    border-radius: 5px;
-}
-
-    nav ul li a:hover {
-     background-color: #555;
-    }
-
-    /* Submenu  */
-
-    nav ul .submenu {
-        display: none;
-        position: absolute;
-        background-color: #444;
-        list-style: none;
-        top:100%;
-        left: 0;
-        width: 150px;
-        border-radius: 5px;
-    }
-
-    nav ul li:hover .submenu {
-        display: block;
-        text-align: left;
-    }
-
-    nav ul .submenu li a {
-        display: block;
-        padding: 10px;
-        border-radius: 0;
-    }
-
-    /* Tela de Login  */
-
-    .login-container {
-        background-color: white;
-        width: 350px;
-        margin: 80px auto;
-        padding: 20px;
-        border-radius: 10px;
-        text-align: left;
-    }
-
-    .login-container h2 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .input-group {
-        margin-bottom: 15px;
-    }
-
-    .input-group label {
-        display: block;
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-
-    .input-group input {
-        width: 100%;
-        padding: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-
-button {
+/* Estilo do botão de login */
+.btn-login {
     width: 100%;
     padding: 10px;
-    background-color: #28a745;
+    background-color: #7a4e9f; 
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-}   
+}
+
+/* Estilo do botão de login ao passar o mouse */
+.btn-login:hover {
+    background-color: #9b59b6;
+}
+
+/* Estilo para o texto de "Criar conta" abaixo do formulário */
+.signup-prompt {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+/* Estilo para o link "Criar conta" */
+.signup-link {
+    color: #9b59b6; 
+    text-decoration: none;
+}
+
+/* Estilo para o link ao passar o mouse */
+.signup-link:hover {
+    text-decoration: underline;
+}
