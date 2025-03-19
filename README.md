@@ -6,6 +6,15 @@ podem compartilhar suas conquistas, treinos e interagir com outros membros da
 comunidade. O objetivo principal é criar um ambiente motivacional e de apoio entre as 
 pessoas que buscam melhorar sua saúde e condição física.
 
+----
+
+Atualizações Recentes
+
+- Criação do CSS da Página Home: O estilo visual da página inicial foi desenvolvido.
+
+- Criação da Página Home: A página inicial do site foi construída, oferecendo uma visão geral das principais funcionalidades do GYM HARD, somente um link que direciona para o login está funcionando.
+
+----
 
 Funcionalidades Principais
 
