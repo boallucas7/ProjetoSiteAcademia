@@ -1,7 +1,7 @@
 /* Cor de fundo geral da página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212; 
+    background-color: #121212; /* Fundo escuro (preto suave) */
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,64 +12,64 @@ body {
 
 /* Estilos para o container de login */
 .login-container {
-    background-color: #2c003e; 
+    background-color: #2c003e; /* Roxo escuro para o fundo do container */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px; 
+    width: 300px; /* Definindo a largura do container */
     text-align: center;
-    color: white; 
+    color: white; /* Texto branco para contraste */
     display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: center; /* Alinha os itens verticalmente no centro */
+    align-items: center; /* Alinha os itens horizontalmente no centro */
 }
 
 /* Título do formulário */
 .login-container h2 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: white; 
+    color: white; /* Cor do título em branco */
 }
 
 /* Estilo dos grupos de campos de entrada */
 .input-group {
     margin-bottom: 15px;
     text-align: left;
-    width: 100%; 
+    width: 100%; /* Garantindo que o grupo de input ocupe toda a largura do contêiner */
 }
 
 /* Estilo para os rótulos (labels) */
 .input-group label {
     font-size: 14px;
-    color: white; 
-    display: block; 
+    color: white; /* Cor do texto dos rótulos em branco */
+    display: block; /* Faz o label ocupar toda a linha */
 }
 
 /* Estilo dos campos de entrada (inputs) */
 .input-group input {
-    width: 100%; 
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #7a4e9f; 
+    border: 1px solid #7a4e9f; /* Borda roxa clara */
     border-radius: 4px;
     font-size: 16px;
-    background-color: #2c003e; 
-    color: white; 
-    box-sizing: border-box;
+    background-color: #2c003e; /* Fundo roxo escuro para os campos */
+    color: white; /* Texto dentro do campo em branco */
+    box-sizing: border-box; /* Garante que o padding não afete a largura total do campo */
 }
 
 /* Estilo para o campo de entrada quando ele estiver em foco */
 .input-group input:focus {
-    border-color: #9b59b6; 
-    outline: none; 
+    border-color: #9b59b6; /* Roxo mais claro para o foco */
+    outline: none; /* Retira a borda externa padrão ao focar */
 }
 
 /* Estilo do botão de login */
 .btn-login {
     width: 100%;
     padding: 10px;
-    background-color: #7a4e9f; 
+    background-color: #7a4e9f; /* Roxo claro para o fundo do botão */
     color: white;
     border: none;
     border-radius: 4px;
@@ -79,23 +79,98 @@ body {
 
 /* Estilo do botão de login ao passar o mouse */
 .btn-login:hover {
-    background-color: #9b59b6;
+    background-color: #9b59b6; /* Roxo ainda mais claro para o hover */
 }
 
 /* Estilo para o texto de "Criar conta" abaixo do formulário */
 .signup-prompt {
     margin-top: 20px;
     font-size: 14px;
-    color: white;
+    color: white; /* Texto branco para o link */
 }
 
 /* Estilo para o link "Criar conta" */
 .signup-link {
-    color: #9b59b6; 
-    text-decoration: none;
+    color: #9b59b6; /* Roxo mais claro para o link */
+    text-decoration: none; /* Sem sublinhado por padrão */
 }
 
 /* Estilo para o link ao passar o mouse */
 .signup-link:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Sublinha o link quando o mouse passa por cima */
+}
+
+/* Estilo da página Home */
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/* Estilo do cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c003e;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav {
+    margin-left: 0;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #9b59b6;
+}
+
+/* Seção principal */
+.hero {
+    text-align: center;
+    padding: 150px 20px 100px;
+}
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #ccc;
 }
