@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Criar Conta</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h2>Criar Conta</h2>
+    <form id="signup-form">
+      <div class="input-group">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required />
+        <small class="erro" id="erro-nome"></small>
+      </div>
+
+      <div class="input-group">
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" id="nascimento" name="nascimento" required />
+        <small class="erro" id="erro-nascimento"></small>
+      </div>
+
+      <div class="input-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+        <small class="erro" id="erro-email"></small>
+      </div>
+
+      <div class="input-group">
+        <label for="cep">CEP</label>
+        <input type="text" id="cep" name="cep" maxlength="9" placeholder="00000-000" required />
+        <small class="erro" id="erro-cep"></small>
+      </div>
+
+      <div class="input-group">
+        <label for="endereco">Endereço</label>
+        <input type="text" id="endereco" name="endereco" readonly />
+      </div>
+
+      <button type="submit" class="btn-login">Criar Conta</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
