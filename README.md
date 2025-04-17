@@ -1,7 +1,11 @@
 GYM HARD - Rede Social Fitness
 Projeto Acadêmico para Obtenção de nota no curso de Análise e Desenvolvimento de Sistemas.
 
+--------------------------------
+
 GYM HARD é uma rede social voltada para entusiastas de fitness, onde os usuários podem compartilhar suas conquistas, treinos e interagir com outros membros da comunidade. O objetivo principal é criar um ambiente motivacional e de apoio entre as pessoas que buscam melhorar sua saúde e condição física.
+
+--------------------------------
 
 Funcionalidades Principais
 Cadastro de Usuário
@@ -44,6 +48,8 @@ Funcionalidade para busca de academias por localização, com informações como
 Privacidade e Cookies
 Exibição dos Termos de Privacidade e explicação sobre o uso de cookies para autenticação e personalização.
 
+--------------------------------
+
 Atualizações Recentes
 Criação do CSS da Página Home: O estilo visual da página inicial foi desenvolvido, com tema escuro e detalhes em roxo.
 
@@ -54,6 +60,8 @@ Funcionalidades de Cadastro de Usuário:
 A validação de dados foi implementada no formulário de cadastro, garantindo que os campos sejam preenchidos corretamente antes do envio.
 
 O CEP agora preenche automaticamente o campo de endereço usando a API ViaCEP.
+
+--------------------------------
 
 Tecnologias Utilizadas
 HTML5: Estrutura da página.
