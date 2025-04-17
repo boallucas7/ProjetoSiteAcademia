@@ -4,7 +4,8 @@ Projeto Acadêmico para Obtenção de nota no curso de Análise e Desenvolviment
 GYM HARD é uma rede social voltada para entusiastas de fitness, onde os usuários podem compartilhar suas conquistas, treinos e interagir com outros membros da comunidade. O objetivo principal é criar um ambiente motivacional e de apoio entre as pessoas que buscam melhorar sua saúde e condição física.
 
 Funcionalidades Principais
-Cadastro de Usuário: Permite que os usuários criem uma conta para acessar a rede social.
+Cadastro de Usuário
+Permite que os usuários criem uma conta para acessar a rede social.
 
 Campos: Nome, e-mail, data de nascimento, e CEP.
 
@@ -18,36 +19,29 @@ Preenchimento automático do endereço via CEP.
 
 Botão de Criação de Conta: Exibe mensagens de erro se algum campo estiver inválido.
 
-Página de Perfil:
-
+Página de Perfil
 Exibição de foto de perfil, nome de usuário, biografia e informações básicas (nome, idade, localidade, objetivos).
 
 Histórico de postagens, atualizações de informações e foto de perfil.
 
-Feed de Postagens:
-
+Feed de Postagens
 Postagens com textos e imagens.
 
 Opção de curtidas e comentários.
 
-Interações e Comentários:
-
+Interações e Comentários
 Funcionalidade para curtir, descurtir e comentar nas postagens.
 
-Busca de Amigos e Seguidores:
-
+Busca de Amigos e Seguidores
 Permite que os usuários encontrem amigos ou outros usuários com interesses semelhantes e sigam outros membros.
 
-Notificações:
+Notificações
+Notificações sobre novas interações, seguidores e desafios.
 
-Notificações sobre novas interações, seguidores, e desafios.
-
-Aba de Academias:
-
+Aba de Academias
 Funcionalidade para busca de academias por localização, com informações como nome, endereço e serviços.
 
-Privacidade e Cookies:
-
+Privacidade e Cookies
 Exibição dos Termos de Privacidade e explicação sobre o uso de cookies para autenticação e personalização.
 
 Atualizações Recentes
