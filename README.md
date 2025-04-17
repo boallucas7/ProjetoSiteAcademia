@@ -1,102 +1,69 @@
-# ProjetoSiteAcademia
-Projeto Acadêmico para Obtenção de nota no curso de Análise e Desenvolvimento de Sistemas
+GYM HARD - Rede Social Fitness
+Projeto Acadêmico para Obtenção de nota no curso de Análise e Desenvolvimento de Sistemas.
 
-GYM HARD é uma rede social voltada para entusiastas de fitness, onde os usuários 
-podem compartilhar suas conquistas, treinos e interagir com outros membros da 
-comunidade. O objetivo principal é criar um ambiente motivacional e de apoio entre as 
-pessoas que buscam melhorar sua saúde e condição física.
-
-----
-
-Atualizações Recentes
-
-- Criação do CSS da Página Home: O estilo visual da página inicial foi desenvolvido.
-
-- Criação da Página Home: A página inicial do site foi construída, oferecendo uma visão geral das principais funcionalidades do GYM HARD, somente um link que direciona para o login está funcionando.
-
-----
+GYM HARD é uma rede social voltada para entusiastas de fitness, onde os usuários podem compartilhar suas conquistas, treinos e interagir com outros membros da comunidade. O objetivo principal é criar um ambiente motivacional e de apoio entre as pessoas que buscam melhorar sua saúde e condição física.
 
 Funcionalidades Principais
+Cadastro de Usuário: Permite que os usuários criem uma conta para acessar a rede social.
 
-1. Cadastro de Usuário
-Objetivo: Permitir que os usuários criem uma conta para acessar a rede social.
-Funcionalidade:
-• Formulário de cadastro com campos para nome, nome de usuário, e-mail, 
-senha e data de nascimento.
-• Opção para adicionar uma foto de perfil.
-• Validação de dados para evitar registros duplicados e garantir a segurança das 
-informações.
+Campos: Nome, e-mail, data de nascimento, e CEP.
 
------
+Validações:
 
-2. Página de Perfil
-Objetivo: Cada usuário terá sua própria página de perfil para exibir informações sobre 
-progresso, treinos e conquistas.
-Funcionalidade:
-• Foto de perfil e nome de usuário.
-• Biografia e informações básicas (nome, idade, localidade, objetivos).
-• Histórico de publicações e metas de fitness.
-• Opção para atualização de informações e foto de perfil, banner.
+Idade mínima de 18 anos.
 
------
+Validação de e-mail.
 
-3. Feed de Postagens
-Objetivo: Criar um feed onde os usuários possam postar atualizações, fotos de treino 
-e conquistas.
-Funcionalidade:
-• Postagens contendo textos e imagens.
-• Opção de curtidas e comentários nas postagens.
-• Exibição das postagens mais recentes.
+Preenchimento automático do endereço via CEP.
 
------
+Botão de Criação de Conta: Exibe mensagens de erro se algum campo estiver inválido.
 
-4. Interações e Comentários
-Objetivo: Facilitar a interação entre os usuários.
-Funcionalidade:
-• Permitir que os usuários comentem nas postagens.
-• Função de "Curtir" e "Descurtir" postagens.
+Página de Perfil:
 
------
+Exibição de foto de perfil, nome de usuário, biografia e informações básicas (nome, idade, localidade, objetivos).
 
-5. Busca de Amigos e Seguidores
-Objetivo: Ajudar os usuários a encontrarem outros membros para seguir e interagir.
-Funcionalidade:
-• Função de busca para encontrar amigos ou usuários com interesses 
-semelhantes.
-• Possibilidade de seguir usuários para acompanhar suas postagens.
+Histórico de postagens, atualizações de informações e foto de perfil.
 
------
+Feed de Postagens:
 
-6. Notificações
-Objetivo: Avisar os usuários sobre atividades importantes, como novos seguidores, 
-comentários ou desafios.
-Funcionalidade:
-• Área de notificações com atualizações sobre interações e desafios.
+Postagens com textos e imagens.
 
------
+Opção de curtidas e comentários.
 
-7. Aba de Academias
-Objetivo: Permitir que os usuários localizem academias em sua região.
-Funcionalidade:
-• Busca de academias por localização.
-• Exibição de informações básicas como nome, endereço e serviços oferecidos.
+Interações e Comentários:
 
------
+Funcionalidade para curtir, descurtir e comentar nas postagens.
 
-8. Privacidade e Cookies
-Objetivo: Garantir transparência sobre o uso de dados e cookies.
-Funcionalidade:
-• Exibição dos Termos de Privacidade.
-• Explicação sobre o uso de cookies necessários para funcionamento do site, 
-como autenticação e personalização do conteúdo.
+Busca de Amigos e Seguidores:
 
------
+Permite que os usuários encontrem amigos ou outros usuários com interesses semelhantes e sigam outros membros.
 
-Conclusão
-O GYM HARD é um projeto acadêmico que visa criar uma rede social voltada ao 
-universo fitness, proporcionando interação, motivação e suporte para os usuários. A 
-implementação do sistema envolve diversas tecnologias para garantir uma experiência 
-segura e interativa.
+Notificações:
 
+Notificações sobre novas interações, seguidores, e desafios.
 
------
+Aba de Academias:
+
+Funcionalidade para busca de academias por localização, com informações como nome, endereço e serviços.
+
+Privacidade e Cookies:
+
+Exibição dos Termos de Privacidade e explicação sobre o uso de cookies para autenticação e personalização.
+
+Atualizações Recentes
+Criação do CSS da Página Home: O estilo visual da página inicial foi desenvolvido, com tema escuro e detalhes em roxo.
+
+Criação da Página Home: A página inicial foi construída, com um link funcional direcionando para o login.
+
+Funcionalidades de Cadastro de Usuário:
+
+A validação de dados foi implementada no formulário de cadastro, garantindo que os campos sejam preenchidos corretamente antes do envio.
+
+O CEP agora preenche automaticamente o campo de endereço usando a API ViaCEP.
+
+Tecnologias Utilizadas
+HTML5: Estrutura da página.
+
+CSS3: Estilização personalizada.
+
+JavaScript: Validação de campos de cadastro, preenchimento automático do endereço via CEP e validação de idade (mínimo de 18 anos).
