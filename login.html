@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login - GYM HARD</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <img src="imagens/Like.png" alt="Logo Gym Hard" />
+    <nav>
+      <a href="index.html">Sobre</a>
+      <a href="cadastro.html">Cadastro</a>
+      <a href="login.html" class="ativo">Login</a>
+    </nav>
+  </header>
 
-    <div class="login-container">
-        <h2>Login</h2>
-        <form action="/login" method="post">
-            <div class="input-group">
-                <label for="username">Nome de usuário ou Email</label>
-                <input type="text" id="username" name="username" placeholder="Digite seu nome de usuário ou email" required>
-            </div>
-            <div class="input-group">
-                <label for="password">Senha</label>
-                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
-            </div>
-            <button type="submit" class="btn-login">Entrar</button>
-        </form>
+  <main>
+    <section class="formulario">
+      <h1>Login</h1>
+      <form id="loginForm" novalidate>
+        <label for="emailLogin">Email</label>
+        <input type="email" id="emailLogin" name="emailLogin" placeholder="Digite seu email" required />
 
-        <p class="signup-prompt">Ainda não tem uma conta? <a href="criarconta.html" class="signup-link">Criar conta</a></p>
-    </div>
+        <label for="senhaLogin">Senha</label>
+        <input type="password" id="senhaLogin" name="senhaLogin" placeholder="Digite sua senha" required minlength="6" />
 
+        <button type="submit">Entrar</button>
+      </form>
+      <p id="mensagemLogin"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GYM HARD - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
