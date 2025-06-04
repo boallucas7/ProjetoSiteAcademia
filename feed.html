@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Feed - GYM HARD</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="imagens/Like.png" alt="Logo Gym Hard" />
+    <nav>
+      <a href="index.html">Sobre</a>
+      <a href="feed.html" class="ativo">Feed</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="#" id="logoutBtn">Sair</a>
+    </nav>
+  </header>
+
+  <main class="feed-container">
+    <section class="nova-postagem">
+      <h2>Nova Postagem</h2>
+      <textarea id="txtPostagem" placeholder="O que você está pensando?" maxlength="500"></textarea>
+      <input type="file" id="inputImagem" accept="image/*" />
+      <button id="btnPostar">Publicar</button>
+    </section>
+
+    <section id="postagens"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GYM HARD - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="feed.js"></script>
+</body>
+</html>
