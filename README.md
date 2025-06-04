@@ -36,4 +36,4 @@ HTML5: Estrutura da página.
 
 CSS3: Estilização personalizada.
 
-JavaScript: Validação de campos de cadastro, preenchimento automático do endereço via CEP e validação de idade (mínimo de 18 anos).
+JavaScript: Validação de campos de cadastro, preenchimento automático do endereço via CEP.
