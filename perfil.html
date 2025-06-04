@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Perfil - GYM HARD</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="imagens/Like.png" alt="Logo Gym Hard" />
+    <nav>
+      <a href="index.html">Sobre</a>
+      <a href="feed.html">Feed</a>
+      <a href="perfil.html" class="ativo">Perfil</a>
+      <a href="#" id="logoutBtn">Sair</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="perfil-container">
+      <!-- Exibição do perfil -->
+      <div class="perfil-header">
+        <img src="assets/imagens/usuario-default.png" alt="Foto do usuário" id="imgPerfil" />
+        <div>
+          <h2 id="nomePerfil">Nome do Usuário</h2>
+          <p id="emailPerfil">email@exemplo.com</p>
+          <p id="enderecoPerfil">Endereço: </p>
+        </div>
+      </div>
+
+      <!-- Botão para Editar Perfil -->
+      <button id="btnEditarPerfil">Editar Perfil</button>
+
+      <!-- Seção de Edição do Perfil -->
+      <section class="perfil-editar hidden">
+        <h3>Editar Perfil</h3>
+        <form id="formEditarPerfil" novalidate>
+          <label for="nomeEdit">Nome Completo</label>
+          <input type="text" id="nomeEdit" name="nomeEdit" required />
+
+          <label for="emailEdit">Email</label>
+          <input type="email" id="emailEdit" name="emailEdit" required />
+
+          <label for="senhaEdit">Senha</label>
+          <input type="password" id="senhaEdit" name="senhaEdit" minlength="6" />
+
+          <label for="cepEdit">CEP</label>
+          <input type="text" id="cepEdit" name="cepEdit" maxlength="9" required />
+
+          <label for="enderecoEdit">Endereço</label>
+          <input type="text" id="enderecoEdit" name="enderecoEdit" required />
+
+          <label for="fotoPerfilEdit">Foto de Perfil</label>
+          <input type="file" id="fotoPerfilEdit" name="fotoPerfilEdit" accept="image/*" />
+
+          <button type="submit">Salvar Alterações</button>
+          <button type="button" id="btnCancelarEditar">Cancelar</button>
+        </form>
+      </section>
+
+      <!-- Seção de Postagens -->
+      <section class="perfil-postagens">
+        <h3>Suas Postagens</h3>
+
+        <!-- Formulário para criação de postagem -->
+        <textarea id="inputPostagem" placeholder="O que você está pensando?" rows="3"></textarea>
+        <input type="file" id="inputMídia" accept="image/*,video/*" />
+        <button id="btnPostar">Postar</button>
+
+        <!-- Container para as postagens -->
+        <div id="postagensPerfil"></div>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GYM HARD - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="perfil.js"></script>
+</body>
+</html>
